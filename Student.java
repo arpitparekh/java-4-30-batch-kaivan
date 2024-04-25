@@ -24,12 +24,34 @@ public class Student {
     String sir(String a) {
         return a;
     }
-    String rev(String b){
-        String S1="";
+
+    String rev(String b) {
+        String S1 = "";
         for (int i = b.length() - 1; i >= 0; i--) {
             S1 = S1 + b.charAt(i);
         }
         return S1;
     }
+    // Don't givee size while declaring an array inside a parameter(while making a function)
+    void printArray(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i] + " ");
+        }
+    }
+
+    void findMin(float arr[]) {
+
+        float min = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        System.out.println("minium value of the array is " + min);
+    }
+    
+  
+
     
 }
