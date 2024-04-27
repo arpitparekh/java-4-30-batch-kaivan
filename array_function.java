@@ -43,9 +43,12 @@ public class array_function {
 
         Student s= new Student();
         s.printArray(arr5);
-
         s.findMin(f);
 
+        String[] ar=s.toUpper(arr1);
+
+        System.out.println(Arrays.toString(ar));
     }
+    
     
 }
