@@ -1,12 +1,10 @@
-package oopc;
-
 public class Employee { // access modifiers  // encapsulation
     
     // public // private  // protected
 
-    int id;
-    String name;
-    float height;
+    int id=0;
+    String name ="";
+    float height=(float)0.0;
 
     // void setName(String myName) {  // nothing then default
     //     name = myName;

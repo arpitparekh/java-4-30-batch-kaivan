@@ -1,3 +1,4 @@
+
 public class Student {
 
     static void kaivan2() {

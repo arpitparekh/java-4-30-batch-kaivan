@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class palindrome_reverse {
