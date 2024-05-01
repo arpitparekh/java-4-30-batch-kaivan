@@ -14,6 +14,10 @@ public class Employee { // access modifiers  // encapsulation
     //     height = myHeight;
     // }
     
+    @Override
+    public String toString() {
+        return id + " : "+ name+ " : "+height;
+    }
 
     // constructor name and class will always be same
     
