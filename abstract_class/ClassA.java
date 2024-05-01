@@ -23,7 +23,9 @@ public abstract class ClassA {
     // function with out any body  // abstract function
 
     abstract void myFunction();
+
     abstract int myFunction2();
+    
     
     
 }
