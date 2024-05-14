@@ -14,16 +14,16 @@ public class thread_function_class {
         AnotherProcess process = new AnotherProcess();
         process.startThread();
 
-        try{
-            process.wait();
-        }catch (InterruptedException e) {
-            System.out.println(e.getMessage());
-        }
+        // try{
+        //     process.wait();
+        // }catch (InterruptedException e) {
+        //     System.out.println(e.getMessage());
+        // }
         
         for (int i = 0; i <= 10; i++) {
             System.out.println(i + " main");
         }
-
+        
     }
 }
 
@@ -50,7 +50,6 @@ class AnotherProcess implements Runnable {
             try {
                 Thread.sleep(10);
                 System.out.println(i + " runnable");
-
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
