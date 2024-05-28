@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 public class FileInputOutputDifferent {
     public static void main(String[] args) {
         
-        // Byte Stream
+        // Byte Stream   // Binary IO
 
         // FileInputStream
         // FileOutputStream

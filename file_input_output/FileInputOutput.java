@@ -15,7 +15,7 @@ class FileInputOutput {
         // character stream
 
         
-        // character stream
+        // character stream   // TEXT IO
 
         // FileReader // FileWriter // write
         // BufferReader // BufferWritter
