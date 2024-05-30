@@ -19,9 +19,6 @@ public class DummyClass {
         B b1 = (B) a1; // object casting   // down casting
         b1.function();
 
-        
-
-
         // String a = new Student();
 
     }
