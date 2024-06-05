@@ -64,5 +64,7 @@ public class KaivanCh9Q2 {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+
+        
     }
 }
