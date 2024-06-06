@@ -1,1 +1,0 @@
- MyHandler handler = null;
