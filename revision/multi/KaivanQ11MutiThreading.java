@@ -16,10 +16,13 @@ public class KaivanQ11MutiThreading {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Array rows:");
         int m = sc.nextInt();
+        
         System.out.print("Enter Array columns:");
         int n = sc.nextInt();
+
         System.out.println("Enter Elements:");
         int a[][] = new int[m][n];
+
         for(int i = 0; i < a.length; i++){
             for(int j = 0; j < a.length; j++){
                 a[i][j]=sc.nextInt();
