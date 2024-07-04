@@ -3,7 +3,6 @@ public class Question15 {
         C1 c1 = new C1();
         System.out.println(c1.max(12, 29)); // 21 is the answer
 
-        
 
     }
 }

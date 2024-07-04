@@ -6,7 +6,7 @@ public class Parent { // private // public // protected // default
     // done // inheritance // constructor chaining
     // done // polymorphism
     // abstraction
-    // done // encapsulation // access modifiers
+    // done // encapsulation // access modifiers // private public default
     // done // super this final static
     
     // multi threading

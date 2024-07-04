@@ -10,7 +10,7 @@ public class function_in_java {
     public static void main(String[] args) {
 
         kaivan(); // Same class direct call
-        // Student.kaivan2(); if function is static
+        Student.kaivan2(); // if function is static
         Student s = new Student(); // Student is a class called by making a object
         s.kaivan2(); //kaivan2 is a function // s is an object made here
         
